@@ -1,0 +1,108 @@
+.top-bar {
+    width: 100%;
+    height: 50px;
+    background-color: var(--color-primary);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0 3px 2px -2px var(--color-shadow);
+    -webkit-app-region: drag;
+    /* margin: 1px; */
+}
+
+.top-bar .logo-img {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    margin: 4px;
+    /* image-rendering: pixelated; */
+    /* background-color: rgb(19, 255, 231); */
+}
+
+.top-bar h3 {
+    width: auto;
+    height: 50px;
+    color: var(--color-text-title);
+    padding: 0px;
+    margin: 0px 8px 0px 8px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar .resizable-top {
+    -webkit-app-region: no-drag;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: calc(100% - 120px);
+}
+
+.top-bar .resizable-left {
+    -webkit-app-region: no-drag;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    height: 50px;
+    width: 2px;
+}
+
+.top-bar .resizable-right {
+    -webkit-app-region: no-drag;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    height: 50px;
+    width: 2px;
+}
+
+.top-bar .window-controls {
+    width: 120px;
+    height: 25px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    -webkit-app-region: no-drag;
+}
+
+.top-bar .window-controls .window-control {
+    cursor: pointer;
+    outline: none !important;
+    width: 40px;
+    -webkit-app-region: no-drag;
+}
+
+.top-bar .window-controls .window-control:focus {
+    outline: 0 !important;
+}
+
+.top-bar .window-controls .window-minimize,
+.top-bar .window-controls .window-restore,
+.top-bar .window-controls .window-maximize {
+    color: var(--color-icon);
+}
+
+.top-bar .window-controls .window-minimize:hover,
+.top-bar .window-controls .window-restore:hover,
+.top-bar .window-controls .window-maximize:hover {
+    background-color: var(--color-background);
+}
+
+.top-bar .window-controls .window-restore {
+    display: none;
+}
+
+.top-bar .window-controls .window-close:hover {
+    background-color: rgb(220, 0, 0);
+}

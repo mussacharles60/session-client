@@ -1,0 +1,65 @@
+.light {
+    --color-primary: #FFFFFF;
+    --color-secondary: #FFFFFF;
+    /* --color-background: #F9F5FE; */
+    --color-background: #f1f8ff;
+    --color-view-background: #F0F0F0;
+    --color-view-background-hover: #0096fa;
+    --color-text-primary: #272727;
+    --color-text-secondary: #000000;
+    --color-text-title: #174DD5;
+    --color-text-footer: #3a3a3a;
+    --color-accent: #E4E4E4;
+    --color-accent-dim: #B8B7B7;
+    --color-stroke: rgba(109, 109, 109, 0.5);
+    --color-border: #707070;
+    --color-shadow: rgba(0, 0, 0, 0.419);
+    --color-icon: #00000070;
+    --color-pallete-icon: #3330eb;
+    --color-pallete-toggle: #ffffff;
+    --color-loader: #a1a1a1;
+    --color-loader-dim: #434343;
+    --color-device-item-normal: #ffffff;
+    --color-device-item-selected: #53aae4;
+    --color-device-item-text-normal: #434343;
+    --color-device-item-text-selected: #ffffff;
+    --color-btn: #174DD5;
+    --color-btn-active: #494949;
+    --color-btn-text: #f7f7f7;
+    --color-deep-blue: #001f3f;
+    --color-deep-session: #AAAAAA;
+}
+
+.dark {
+    --color-primary: #2D2D2D;
+    --color-secondary: #333333;
+    --color-background: #1E1E1E;
+    --color-view-background: #3C3C3C;
+    --color-view-background-hover: #006db6;
+    --color-text-primary: #f2f2f2;
+    --color-text-secondary: #ebebeb;
+    --color-text-title: #7BDCDA;
+    --color-text-footer: #CCCCCC;
+    --color-accent: #7b7b7b;
+    --color-accent-dim: #767676;
+    --color-stroke: rgba(143, 143, 143, 0.5);
+    --color-border: #444444;
+    --color-shadow: #111111;
+    --color-icon: #e1e1e1;
+    --color-pallete-icon: #ffffff;
+    --color-pallete-toggle: #2D2D2D;
+    /* --color-pallete-toggle: #13dc2a; */
+    --color-loader: #686868;
+    --color-loader-dim: #C9C9C9;
+    --color-device-item-normal: #3f3f3f;
+    --color-device-item-selected: #1E1E1E;
+    --color-device-item-text-normal: #dddddd;
+    --color-device-item-text-selected: #ffffff;
+    /* --color-device-item-selected: #0a0a0a; */
+    /* --color-device-item-selected-hover: #3f3f3f; */
+    --color-btn: #496cc4;
+    --color-btn-active: #494949;
+    --color-btn-text: #f7f7f7;
+    --color-deep-blue: #001f3f;
+    --color-deep-session: #000000;
+}
